@@ -1,0 +1,9 @@
+# Large local model weights and incomplete downloads
+models/
+*.gguf
+*.part
+
+# Local application settings and logs
+opencode.json
+.env
+*.log

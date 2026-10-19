@@ -1,0 +1,5 @@
+# Experimental profile. Create qwen38-64k first.
+# Set OLLAMA_KV_CACHE_TYPE=q4_0 on the Ollama SERVER and restart it.
+# Cache precision is global; it is not stored in this Modelfile.
+FROM qwen38-64k:latest
+PARAMETER num_ctx 120000
